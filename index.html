@@ -1,0 +1,1490 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title></title>
+        <style type="text/css">
+            @media only screen and (max-width: 480px) {
+                body,
+                table,
+                td,
+                p,
+                a,
+                li,
+                blockquote {
+                    -webkit-text-size-adjust: none !important;
+                }
+                body {
+                    width: 100% !important;
+                    min-width: 100% !important;
+                }
+                #bodyCell {
+                    padding: 10px !important;
+                }
+                table.kmMobileHide {
+                    display: none !important;
+                }
+                table.kmDesktopOnly,
+                td.kmDesktopOnly,
+                th.kmDesktopOnly,
+                tr.kmDesktopOnly,
+                td.kmDesktopWrapHeaderMobileNone {
+                    display: none !important;
+                }
+                table.kmMobileOnly {
+                    display: table !important;
+                }
+                tr.kmMobileOnly {
+                    display: table-row !important;
+                }
+                td.kmMobileOnly,
+                td.kmDesktopWrapHeader,
+                th.kmMobileOnly {
+                    display: table-cell !important;
+                }
+                tr.kmMobileNoAlign,
+                table.kmMobileNoAlign {
+                    float: none !important;
+                    text-align: initial !important;
+                    vertical-align: middle !important;
+                    table-layout: fixed !important;
+                }
+                tr.kmMobileCenterAlign {
+                    float: none !important;
+                    text-align: center !important;
+                    vertical-align: middle !important;
+                    table-layout: fixed !important;
+                }
+                td.kmButtonCollection {
+                    padding-left: 9px !important;
+                    padding-right: 9px !important;
+                    padding-top: 9px !important;
+                    padding-bottom: 9px !important;
+                }
+                td.kmMobileHeaderStackDesktopNone,
+                img.kmMobileHeaderStackDesktopNone,
+                td.kmMobileHeaderStack {
+                    display: block !important;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                    padding-bottom: 9px !important;
+                    padding-right: 0 !important;
+                    padding-left: 0 !important;
+                }
+                td.kmMobileWrapHeader,
+                td.kmMobileWrapHeaderDesktopNone {
+                    display: inline-block !important;
+                }
+                td.kmMobileHeaderSpacing {
+                    padding-right: 10px !important;
+                }
+                td.kmMobileHeaderNoSpacing {
+                    padding-right: 0 !important;
+                }
+                table.kmDesktopAutoWidth {
+                    width: inherit !important;
+                }
+                table.kmMobileAutoWidth {
+                    width: 100% !important;
+                }
+                table.kmTextContentContainer {
+                    width: 100% !important;
+                }
+                table.kmBoxedTextContentContainer {
+                    width: 100% !important;
+                }
+                td.kmImageContent {
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                }
+                img.kmImage {
+                    width: 100% !important;
+                }
+                td.kmMobileStretch {
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                }
+                table.kmSplitContentLeftContentContainer,
+                table.kmSplitContentRightContentContainer,
+                table.kmColumnContainer,
+                td.kmVerticalButtonBarContentOuter table.kmButtonBarContent,
+                td.kmVerticalButtonCollectionContentOuter table.kmButtonCollectionContent,
+                table.kmVerticalButton,
+                table.kmVerticalButtonContent {
+                    width: 100% !important;
+                }
+                td.kmButtonCollectionInner {
+                    padding-left: 9px !important;
+                    padding-right: 9px !important;
+                    padding-top: 9px !important;
+                    padding-bottom: 9px !important;
+                }
+                td.kmVerticalButtonIconContent,
+                td.kmVerticalButtonTextContent,
+                td.kmVerticalButtonContentOuter {
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                    padding-bottom: 9px !important;
+                }
+                table.kmSplitContentLeftContentContainer td.kmTextContent,
+                table.kmSplitContentRightContentContainer td.kmTextContent,
+                table.kmColumnContainer td.kmTextContent,
+                table.kmSplitContentLeftContentContainer td.kmImageContent,
+                table.kmSplitContentRightContentContainer td.kmImageContent {
+                    padding-top: 9px !important;
+                }
+                td.rowContainer.kmFloatLeft,
+                td.rowContainer.kmFloatLeft,
+                td.rowContainer.kmFloatLeft.firstColumn,
+                td.rowContainer.kmFloatLeft.firstColumn,
+                td.rowContainer.kmFloatLeft.lastColumn,
+                td.rowContainer.kmFloatLeft.lastColumn {
+                    float: left;
+                    clear: both;
+                    width: 100% !important;
+                }
+                table.templateContainer,
+                table.templateContainer.brandingContainer,
+                div.templateContainer,
+                div.templateContainer.brandingContainer,
+                table.templateRow {
+                    max-width: 600px !important;
+                    width: 100% !important;
+                }
+                h1 {
+                    font-size: 40px !important;
+                    line-height: 1.1 !important;
+                }
+                h2 {
+                    font-size: 32px !important;
+                    line-height: 1.1 !important;
+                }
+                h3 {
+                    font-size: 24px !important;
+                    line-height: 1.1 !important;
+                }
+                h4 {
+                    font-size: 18px !important;
+                    line-height: 1.1 !important;
+                }
+                td.kmTextContent {
+                    font-size: 14px !important;
+                    line-height: 1.3 !important;
+                }
+                td.kmTextBlockInner td.kmTextContent {
+                    padding-right: 18px !important;
+                    padding-left: 18px !important;
+                }
+                table.kmTableBlock.kmTableMobile td.kmTableBlockInner {
+                    padding-left: 9px !important;
+                    padding-right: 9px !important;
+                }
+                table.kmTableBlock.kmTableMobile td.kmTableBlockInner .kmTextContent {
+                    font-size: 14px !important;
+                    line-height: 1.3 !important;
+                    padding-left: 4px !important;
+                    padding-right: 4px !important;
+                }
+            }
+        </style>
+        <!--[if mso]>
+            <style>
+                .templateContainer {
+                    border: 0px none #aaaaaa;
+                    background-color: #ffffff;
+                    border-radius: 0px;
+                }
+                #brandingContainer {
+                    background-color: transparent !important;
+                    border: 0;
+                }
+                .templateContainerInner {
+                    padding: 0px;
+                }
+            </style>
+        <![endif]-->
+        <style>
+            span.yshortcuts:hover {
+                background-color: none !important;
+                border: none !important;
+            }
+            span.yshortcuts:active {
+                background-color: none !important;
+                border: none !important;
+            }
+            span.yshortcuts:focus {
+                background-color: none !important;
+                border: none !important;
+            }
+            .rowContainer .kmTextContent a:link {
+                color: #000;
+                font-weight: normal;
+                text-decoration: underline;
+            }
+            .rowContainer .kmTextContent a:visited {
+                color: #000;
+                font-weight: normal;
+                text-decoration: underline;
+            }
+            .kmTable .kmTableRow:last-child > td {
+                border-bottom: none !important;
+            }
+        </style>
+        <style>
+            #outlook a {
+                padding-left: 0;
+                padding-right: 0;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+            .ReadMsgBody {
+                width: 100%;
+            }
+            .ExternalClass {
+                width: 100%;
+            }
+            span.yshortcuts {
+                background-color: none !important;
+                border: none !important;
+            }
+            span.yshortcuts:hover,
+            span.yshortcuts:active,
+            span.yshortcuts:focus {
+                background-color: none !important;
+                border: none !important;
+            }
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            a {
+                word-wrap: break-word !important;
+                max-width: 100%;
+            }
+            img {
+                border: 0;
+                height: auto;
+                line-height: 100%;
+                outline: none;
+                text-decoration: none;
+                max-width: 100%;
+            }
+            img[align="left"] {
+                margin-right: 0;
+            }
+            img[align="right"] {
+                margin-left: 0;
+            }
+            table,
+            td {
+                border-collapse: collapse;
+                mso-table-lspace: 0;
+                mso-table-rspace: 0;
+                table-layout: fixed;
+            }
+            p {
+                margin-left: 0;
+                margin-right: 0;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-bottom: 1em;
+            }
+            p:last-child {
+                padding-bottom: 0;
+            }
+            #bodyTable,
+            #bodyCell {
+                height: 100% !important;
+                margin: 0;
+                width: 100% !important;
+                table-layout: auto;
+            }
+            #bodyTable {
+                padding: 0;
+            }
+            #bodyCell {
+                padding-top: 50px;
+                padding-left: 20px;
+                padding-bottom: 20px;
+                padding-right: 20px;
+                border-top: 0;
+            }
+            body,
+            #bodyTable {
+                background-color: #eee;
+            }
+            .templateContainer {
+                border: 0 none #aaa;
+                background-color: #fff;
+                border-radius: 0;
+            }
+            .brandingContainer {
+                background-color: transparent;
+                border: 0;
+            }
+            .templateContainerInner {
+                padding: 0;
+            }
+            h1 {
+                color: #222 !important;
+                display: block;
+                font-family: "Helvetica Neue", Arial;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: normal;
+                line-height: 1.1;
+                letter-spacing: 0;
+                margin-left: 0;
+                margin-right: 0;
+                margin-top: 0;
+                margin-bottom: 20px;
+                text-align: left;
+            }
+            h2 {
+                color: #222 !important;
+                display: block;
+                font-family: "Helvetica Neue", Arial;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 1.1;
+                letter-spacing: 0;
+                margin-left: 0;
+                margin-right: 0;
+                margin-top: 0;
+                margin-bottom: 16px;
+                text-align: left;
+            }
+            h3 {
+                color: #222 !important;
+                display: block;
+                font-family: "Helvetica Neue", Arial;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 1.1;
+                letter-spacing: 3px;
+                margin-left: 0;
+                margin-right: 0;
+                margin-top: 0;
+                margin-bottom: 12px;
+                text-align: left;
+            }
+            h4 {
+                color: #222 !important;
+                display: block;
+                font-family: "Helvetica Neue", Arial;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: italic;
+                line-height: 1.1;
+                letter-spacing: 0;
+                margin-left: 0;
+                margin-right: 0;
+                margin-top: 0;
+                margin-bottom: 9px;
+                text-align: left;
+            }
+            .rowContainer .kmTextContent {
+                color: #222;
+                font-family: "Helvetica Neue", Arial;
+                font-size: 14px;
+                line-height: 1.5;
+                letter-spacing: 0;
+                text-align: left;
+                max-width: 100%;
+                word-wrap: break-word;
+            }
+            .rowContainer .kmTextContent a,
+            .rowContainer .kmTextContent a:link,
+            .rowContainer .kmTextContent a:visited,
+            .rowContainer .kmTextContent a .yshortcuts {
+                color: #000;
+                font-weight: normal;
+                text-decoration: underline;
+            }
+            .rowContainer .kmTextContent .kmParagraph {
+                padding-bottom: 9px;
+            }
+            .kmImageContent {
+                padding: 0;
+                font-size: 0;
+            }
+            .kmImage {
+                padding-bottom: 0;
+                display: inline !important;
+                vertical-align: top;
+                border: 0;
+                height: auto;
+                line-height: 100%;
+                outline: none;
+                text-decoration: none;
+                font-size: 12px;
+                width: 100%;
+            }
+            .kmButtonBlockInner,
+            .kmButtonCollectionInner {
+                min-width: 60px;
+                padding: 9px 18px;
+            }
+            .kmButtonContentContainer {
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                border-bottom-left-radius: 5px;
+                background-color: #999;
+                border-collapse: separate;
+            }
+            .kmButtonContent {
+                color: white;
+                font-family: "Helvetica Neue", Arial;
+                font-size: 16px;
+            }
+            .kmButton {
+                font-weight: bold;
+                line-height: 100%;
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                font-family: "Helvetica Neue", Arial;
+                font-size: 16px;
+            }
+            .kmButtonBarContent,
+            .kmButtonCollectionContent {
+                font-family: "Helvetica Neue", Arial;
+            }
+            .kmVerticalButtonContent {
+                border-collapse: separate;
+            }
+            .kmTable .kmTableRow > td:last-child {
+                border-right: none !important;
+            }
+            .kmTable .kmTableRow:last-child > td {
+                border-bottom: none !important;
+            }
+            .kmMobileOnly {
+                display: none;
+            }
+            .kmDesktopWrapHeader,
+            .kmDesktopWrapHeaderMobileNone {
+                display: inline-block;
+            }
+            .kmHide {
+                display: none;
+            }
+            .kmMobileHeaderStackDesktopNone,
+            .kmMobileWrapHeaderDesktopNone {
+                display: none;
+            }
+            .kmDesktopAutoWidth {
+                width: 100%;
+            }
+            p,
+            h1,
+            h2,
+            h3,
+            h4,
+            ol,
+            li,
+            ul {
+                font-family: "Poppins", sans-serif;
+            }
+        </style>
+        <style>
+            @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
+        </style>
+    </head>
+    <body>
+        <center>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" data-upload-file-url="/ajax/email-editor/file/upload" data-upload-files-url="/ajax/email-editor/files/upload" id="bodyTable" width="100%">
+                <tbody>
+                    <tr>
+                        <td align="center" id="bodyCell" valign="top">
+                            <!--[if !mso]><!-->
+                            <div class="templateContainer" style="display: table; width: 600px;">
+                                <div class="templateContainerInner">
+                                    <!--<![endif]-->
+                                    <!--[if mso]> <table border="0" cellpadding="0" cellspacing="0" class="templateContainer" width="600" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;"> <tbody> <tr> <td class="templateContainerInner" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;"> <![endif]-->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0" class="templateRow" width="100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="rowContainer kmFloatLeft" valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmTextBlock" width="100%">
+                                                                    <tbody class="kmTextBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmTextBlockInner" style="background-color: #eeeeee;" valign="top">
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="kmTextContentContainer" width="100%">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="font-size: 12px; color: #727272; padding-bottom: 9px; text-align: center; padding-right: 18px; padding-left: 18px; padding-top: 9px;"
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                Can't see this email? {% web_view %}
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmImageBlock" style="min-width: 100%;" width="100%">
+                                                                    <tbody class="kmImageBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmImageBlockInner" style="padding: 9px; padding-left: 9; padding-right: 9; padding-top: 25px; padding-bottom: 25px;" valign="top">
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="kmImageContentContainer" style="min-width: 100%;" width="100%">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="kmImageContent" style="padding-top: 0px; padding-bottom: 0; padding-left: 9px; padding-right: 9px; text-align: center;" valign="top">
+                                                                                                <img
+                                                                                                    align="center"
+                                                                                                    alt=""
+                                                                                                    class="kmImage"
+                                                                                                    src="https://d3k81ch9hvuctc.cloudfront.net/company/RRWA89/images/8d0d8c2f-7100-4d72-864a-a092eb864444.png"
+                                                                                                    style="max-width: 200px; padding: 0; border-width: 0;"
+                                                                                                    width="200"
+                                                                                                />
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmImageBlock" style="min-width: 100%;" width="100%">
+                                                                    <tbody class="kmImageBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmImageBlockInner" style="padding: 0px; padding-left: 9; padding-right: 9;" valign="top">
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="kmImageContentContainer" style="min-width: 100%;" width="100%">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="kmImageContent" style="padding: 0; text-align: center;" valign="top">
+                                                                                                <img
+                                                                                                    align="center"
+                                                                                                    alt=""
+                                                                                                    class="kmImage"
+                                                                                                    src="https://d3k81ch9hvuctc.cloudfront.net/company/RRWA89/images/058d78ce-9098-46b0-992a-cf2734d4e3da.jpeg"
+                                                                                                    style="max-width: 800px; padding: 0; border-width: 0;"
+                                                                                                    width=" 582 "
+                                                                                                />
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmDividerBlock" style="background-color: #eee;" width="100%">
+                                                                    <tbody class="kmDividerBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmDividerBlockInner" style="padding-top: 20px;">
+                                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmDividerContent" width="100%">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td><span></span></td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0" class="templateRow" width="100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="rowContainer kmFloatLeft" valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmTextBlock" width="100%">
+                                                                    <tbody class="kmTextBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmTextBlockInner" style="background-color: #eee;" valign="top">
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="kmTextContentContainer" width="100%">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="padding-top: 25px; padding-bottom: 25px; padding-left: 18px; text-align: center; padding-right: 18px;"
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                <h3 style="text-align: center;">
+                                                                                                    <strong><span style="font-size: 28px;">WINTER IS HERE.</span></strong>
+                                                                                                </h3>
+                                                                                                <p style="padding-bottom: 0; text-align: center;">
+                                                                                                    This is where you can put your most important content. The thing you don't want any one to miss. Maybe you need to link to something.
+                                                                                                    Whether it's an important announcement, new products or services, or letting people know about a special promotion. With Klaviyo, you're
+                                                                                                    covered. Happy emailing!
+                                                                                                </p>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmDividerBlock" style="background-color: #eee;" width="100%">
+                                                                    <tbody class="kmDividerBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmDividerBlockInner" style="padding-top: 20px;">
+                                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmDividerContent" width="100%">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td><span></span></td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmTableBlock kmTableMobile" width="100%">
+                                                                    <tbody class="kmTableBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmTableBlockInner" style="padding-top: 9px; padding-bottom: 9px; padding-left: 18px; padding-right: 18px;" valign="top">
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="kmTable" style="" width="100%">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th
+                                                                                                class="kmTextContent"
+                                                                                                style="text-align: left; padding-top: 4px; font-weight: bold; padding-bottom: 4px; padding-left: 0px; padding-right: 0px;"
+                                                                                                valign="top"
+                                                                                            ></th>
+                                                                                            <th
+                                                                                                class="kmTextContent"
+                                                                                                style="text-align: left; padding-top: 4px; font-weight: bold; padding-bottom: 4px; padding-left: 0px; padding-right: 0px;"
+                                                                                                valign="top"
+                                                                                            ></th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr class="kmTableRow">
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="
+                                                                                                    text-align: left;
+                                                                                                    border-top-style: none;
+                                                                                                    padding-bottom: 4px;
+                                                                                                    padding-right: 0px;
+                                                                                                    padding-left: 0px;
+                                                                                                    padding-top: 4px;
+                                                                                                    border-top-color: #d9d9d9;
+                                                                                                    border-top-width: 1px;
+                                                                                                "
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                                                    <tr>
+                                                                                                        <td
+                                                                                                            class="kmImageContent"
+                                                                                                            style="padding-top: 0px; padding-bottom: 0; padding-left: 9px; padding-right: 9px; text-align: center;"
+                                                                                                            valign="top"
+                                                                                                        >
+                                                                                                            <img
+                                                                                                                align="center"
+                                                                                                                alt=""
+                                                                                                                class="kmImage"
+                                                                                                                src="https://d3k81ch9hvuctc.cloudfront.net/company/RRWA89/images/0e64ae3d-ef07-4d01-92e8-557a10e76923.png"
+                                                                                                                style="max-width: 500px;"
+                                                                                                                width="500"
+                                                                                                            />
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="
+                                                                                                    border-right: none;
+                                                                                                    text-align: left;
+                                                                                                    border-top-style: none;
+                                                                                                    padding-bottom: 4px;
+                                                                                                    padding-right: 0;
+                                                                                                    padding-left: 0;
+                                                                                                    padding-top: 4px;
+                                                                                                    border-top-color: #d9d9d9;
+                                                                                                    border-top-width: 1px;
+                                                                                                "
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                <p></p>
+                                                                                                <h3>
+                                                                                                    <span style="font-size: 22px;">
+                                                                                                        <strong>
+                                                                                                            <img alt="" src="https://i.postimg.cc/DyHb0CvQ/pngkey-com-quotation-mark-png-844200.png" style="width: 40px; height: 32px;" />
+                                                                                                        </strong>
+                                                                                                    </span>
+                                                                                                </h3>
+                                                                                                <p>
+                                                                                                    <span style="font-size: 14px;">
+                                                                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                                                                                        since the 1500s
+                                                                                                    </span>
+                                                                                                </p>
+                                                                                                <p>
+                                                                                                    <span style="font-size: 14px;">.</span>
+                                                                                                    <img
+                                                                                                        alt=""
+                                                                                                        src="https://i.postimg.cc/KzWmfHsJ/pngkey-com-quotation-mark-png-844200.png"
+                                                                                                        style="font-size: 14px; width: 40px; height: 32px;"
+                                                                                                    />
+                                                                                                </p>
+                                                                                                <p style="padding-bottom: 0; text-align: right;">
+                                                                                                    <span style="font-size: 16px;"><strong>Owner #Name</strong></span>
+                                                                                                </p>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmTableBlock kmTableMobile" width="100%">
+                                                                    <tbody class="kmTableBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmTableBlockInner" style="padding-top: 9px; padding-bottom: 9px; padding-left: 18px; padding-right: 18px; background-color: #eee;" valign="top">
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="kmTable" style="" width="100%">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th
+                                                                                                class="kmTextContent"
+                                                                                                style="text-align: left; padding-top: 4px; font-weight: bold; padding-right: 0px; padding-left: 0px; padding-bottom: 4px;"
+                                                                                                valign="top"
+                                                                                            ></th>
+                                                                                            <th
+                                                                                                class="kmTextContent"
+                                                                                                style="text-align: left; padding-top: 4px; font-weight: bold; padding-right: 0px; padding-left: 0px; padding-bottom: 4px;"
+                                                                                                valign="top"
+                                                                                            ></th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr class="kmTableRow">
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="
+                                                                                                    text-align: left;
+                                                                                                    border-top-style: none;
+                                                                                                    padding-bottom: 4px;
+                                                                                                    padding-right: 0px;
+                                                                                                    padding-left: 0px;
+                                                                                                    padding-top: 4px;
+                                                                                                    border-top-color: #d9d9d9;
+                                                                                                    border-top-width: 1px;
+                                                                                                "
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                <h3>
+                                                                                                    <strong style="font-size: 22px;">
+                                                                                                        <img alt="" src="https://i.postimg.cc/DyHb0CvQ/pngkey-com-quotation-mark-png-844200.png" style="width: 40px; height: 32px;" />
+                                                                                                    </strong>
+                                                                                                </h3>
+                                                                                                <p>
+                                                                                                    <span style="font-size: 14px;">
+                                                                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                                                                                        since the 1500s.
+                                                                                                    </span>
+                                                                                                </p>
+                                                                                                <p>
+                                                                                                    <span style="font-size: 14px;">.</span>
+                                                                                                    <img
+                                                                                                        alt=""
+                                                                                                        src="https://i.postimg.cc/KzWmfHsJ/pngkey-com-quotation-mark-png-844200.png"
+                                                                                                        style="font-size: 14px; width: 40px; height: 32px;"
+                                                                                                    />
+                                                                                                </p>
+                                                                                                <p style="text-align: right;"><strong style="font-size: 16px; text-align: right;">Owner #Name</strong></p>
+                                                                                                <p style="padding-bottom: 0; text-align: center;"></p>
+                                                                                            </td>
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="
+                                                                                                    border-right: none;
+                                                                                                    text-align: left;
+                                                                                                    border-top-style: none;
+                                                                                                    padding-bottom: 4px;
+                                                                                                    padding-right: 0;
+                                                                                                    padding-left: 0;
+                                                                                                    padding-top: 4px;
+                                                                                                    border-top-color: #d9d9d9;
+                                                                                                    border-top-width: 1px;
+                                                                                                "
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                                                    <tr>
+                                                                                                        <td class="kmImageContent" style="padding-top: 0px; padding-bottom: 0; padding-left: 9px; padding-right: 9px;" valign="top">
+                                                                                                            <img
+                                                                                                                align="left"
+                                                                                                                alt=""
+                                                                                                                class="kmImage"
+                                                                                                                src="https://d3k81ch9hvuctc.cloudfront.net/company/RRWA89/images/8c5d9c6e-4290-4d3a-84dc-65b7dc27386e.png"
+                                                                                                                style="max-width: 500px;"
+                                                                                                                width="500"
+                                                                                                            />
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmTableBlock kmTableMobile" width="100%">
+                                                                    <tbody class="kmTableBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmTableBlockInner" style="padding-top: 9px; padding-bottom: 9px; padding-left: 18px; padding-right: 18px;" valign="top">
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="kmTable" style="" width="100%">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th
+                                                                                                class="kmTextContent"
+                                                                                                style="text-align: left; padding-top: 4px; font-weight: bold; padding-right: 0px; padding-left: 0px; padding-bottom: 4px;"
+                                                                                                valign="top"
+                                                                                            ></th>
+                                                                                            <th
+                                                                                                class="kmTextContent"
+                                                                                                style="text-align: left; padding-top: 4px; font-weight: bold; padding-right: 0px; padding-left: 0px; padding-bottom: 4px;"
+                                                                                                valign="top"
+                                                                                            ></th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr class="kmTableRow">
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="
+                                                                                                    text-align: left;
+                                                                                                    border-top-style: none;
+                                                                                                    padding-bottom: 4px;
+                                                                                                    padding-right: 0px;
+                                                                                                    padding-left: 0px;
+                                                                                                    padding-top: 4px;
+                                                                                                    border-top-color: #d9d9d9;
+                                                                                                    border-top-width: 1px;
+                                                                                                "
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                                                    <tr>
+                                                                                                        <td
+                                                                                                            class="kmImageContent"
+                                                                                                            style="padding-top: 0px; padding-bottom: 0; padding-left: 9px; padding-right: 9px; text-align: center;"
+                                                                                                            valign="top"
+                                                                                                        >
+                                                                                                            <img
+                                                                                                                align="center"
+                                                                                                                alt=""
+                                                                                                                class="kmImage"
+                                                                                                                src="https://d3k81ch9hvuctc.cloudfront.net/company/RRWA89/images/0e930aec-33a3-4c30-913d-0479bf2c72dc.png"
+                                                                                                                style="max-width: 500px;"
+                                                                                                                width="500"
+                                                                                                            />
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="
+                                                                                                    border-right: none;
+                                                                                                    text-align: left;
+                                                                                                    border-top-style: none;
+                                                                                                    padding-bottom: 4px;
+                                                                                                    padding-right: 0;
+                                                                                                    padding-left: 0;
+                                                                                                    padding-top: 4px;
+                                                                                                    border-top-color: #d9d9d9;
+                                                                                                    border-top-width: 1px;
+                                                                                                "
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                <h3>
+                                                                                                    <strong style="font-size: 22px;">
+                                                                                                        <img alt="" src="https://i.postimg.cc/DyHb0CvQ/pngkey-com-quotation-mark-png-844200.png" style="width: 40px; height: 32px;" />
+                                                                                                    </strong>
+                                                                                                </h3>
+                                                                                                <p>
+                                                                                                    <span style="font-size: 14px;">
+                                                                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                                                                                        since the 1500s
+                                                                                                    </span>
+                                                                                                </p>
+                                                                                                <p>
+                                                                                                    <span style="font-size: 14px;">.</span>
+                                                                                                    <img
+                                                                                                        alt=""
+                                                                                                        src="https://i.postimg.cc/KzWmfHsJ/pngkey-com-quotation-mark-png-844200.png"
+                                                                                                        style="font-size: 14px; width: 40px; height: 32px;"
+                                                                                                    />
+                                                                                                </p>
+                                                                                                <p style="text-align: right;">
+                                                                                                    <span style="font-size: 16px;"><strong>Owner #Name</strong></span>
+                                                                                                </p>
+                                                                                                <p style="padding-bottom: 0; text-align: center;"></p>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmTableBlock kmTableMobile" width="100%">
+                                                                    <tbody class="kmTableBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmTableBlockInner" style="padding-top: 9px; padding-bottom: 9px; padding-left: 18px; padding-right: 18px; background-color: #eee;" valign="top">
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="kmTable" style="" width="100%">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th
+                                                                                                class="kmTextContent"
+                                                                                                style="text-align: left; padding-top: 4px; font-weight: bold; padding-right: 0px; padding-left: 0px; padding-bottom: 4px;"
+                                                                                                valign="top"
+                                                                                            ></th>
+                                                                                            <th
+                                                                                                class="kmTextContent"
+                                                                                                style="text-align: left; padding-top: 4px; font-weight: bold; padding-right: 0px; padding-left: 0px; padding-bottom: 4px;"
+                                                                                                valign="top"
+                                                                                            ></th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr class="kmTableRow">
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="
+                                                                                                    text-align: left;
+                                                                                                    border-top-style: none;
+                                                                                                    padding-bottom: 4px;
+                                                                                                    padding-right: 0px;
+                                                                                                    padding-left: 0px;
+                                                                                                    padding-top: 4px;
+                                                                                                    border-top-color: #d9d9d9;
+                                                                                                    border-top-width: 1px;
+                                                                                                "
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                <h3>
+                                                                                                    <span style="font-size: 22px;">
+                                                                                                        <strong>
+                                                                                                            <img alt="" src="https://i.postimg.cc/DyHb0CvQ/pngkey-com-quotation-mark-png-844200.png" style="width: 40px; height: 32px;" />
+                                                                                                        </strong>
+                                                                                                    </span>
+                                                                                                </h3>
+                                                                                                <p>
+                                                                                                    <span style="font-size: 14px;">
+                                                                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                                                                                        since the 1500s
+                                                                                                    </span>
+                                                                                                </p>
+                                                                                                <p>
+                                                                                                    <span style="font-size: 14px;">.</span>
+                                                                                                    <img
+                                                                                                        alt=""
+                                                                                                        src="https://i.postimg.cc/KzWmfHsJ/pngkey-com-quotation-mark-png-844200.png"
+                                                                                                        style="font-size: 14px; width: 40px; height: 32px;"
+                                                                                                    />
+                                                                                                </p>
+                                                                                                <p style="padding-bottom: 0; text-align: right;">
+                                                                                                    <span style="font-size: 16px;"><strong>Owner #Name</strong></span>
+                                                                                                </p>
+                                                                                            </td>
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="
+                                                                                                    border-right: none;
+                                                                                                    text-align: left;
+                                                                                                    border-top-style: none;
+                                                                                                    padding-bottom: 4px;
+                                                                                                    padding-right: 0;
+                                                                                                    padding-left: 0;
+                                                                                                    padding-top: 4px;
+                                                                                                    border-top-color: #d9d9d9;
+                                                                                                    border-top-width: 1px;
+                                                                                                "
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                                                    <tr>
+                                                                                                        <td class="kmImageContent" style="padding-top: 0px; padding-bottom: 0; padding-left: 9px; padding-right: 9px;" valign="top">
+                                                                                                            <img
+                                                                                                                align="left"
+                                                                                                                alt=""
+                                                                                                                class="kmImage"
+                                                                                                                src="https://d3k81ch9hvuctc.cloudfront.net/company/RRWA89/images/bde3d5d1-d766-46f7-bf11-bdf3c1999411.png"
+                                                                                                                style="max-width: 500px;"
+                                                                                                                width="500"
+                                                                                                            />
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0" class="templateRow" width="100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="rowContainer kmFloatLeft" valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmTableBlock kmTableMobile" width="100%">
+                                                                    <tbody class="kmTableBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmTableBlockInner" style="padding-top: 18px; padding-bottom: 25px; padding-left: 18px; padding-right: 18px;" valign="top">
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="kmTable" style="" width="100%">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th
+                                                                                                class="kmTextContent"
+                                                                                                style="text-align: left; padding-top: 4px; font-weight: bold; padding-right: 0px; padding-left: 0px; padding-bottom: 4px;"
+                                                                                                valign="top"
+                                                                                            ></th>
+                                                                                            <th
+                                                                                                class="kmTextContent"
+                                                                                                style="text-align: left; padding-top: 4px; font-weight: bold; padding-right: 0px; padding-left: 0px; padding-bottom: 4px;"
+                                                                                                valign="top"
+                                                                                            ></th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr class="kmTableRow">
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="
+                                                                                                    text-align: left;
+                                                                                                    border-top-style: none;
+                                                                                                    padding-bottom: 4px;
+                                                                                                    padding-right: 0px;
+                                                                                                    padding-left: 0px;
+                                                                                                    padding-top: 4px;
+                                                                                                    border-top-color: #d9d9d9;
+                                                                                                    border-top-width: 1px;
+                                                                                                "
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                                                    <tr>
+                                                                                                        <td
+                                                                                                            class="kmImageContent"
+                                                                                                            style="padding-top: 0px; padding-bottom: 0; padding-left: 9px; padding-right: 9px; text-align: center;"
+                                                                                                            valign="top"
+                                                                                                        >
+                                                                                                            <img
+                                                                                                                align="center"
+                                                                                                                alt=""
+                                                                                                                class="kmImage"
+                                                                                                                src="https://d3k81ch9hvuctc.cloudfront.net/company/RRWA89/images/b9e1d621-8e99-49c6-a529-d636166293e0.png"
+                                                                                                                style="max-width: 500px;"
+                                                                                                                width="500"
+                                                                                                            />
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="
+                                                                                                    border-right: none;
+                                                                                                    text-align: left;
+                                                                                                    border-top-style: none;
+                                                                                                    padding-bottom: 4px;
+                                                                                                    padding-right: 0;
+                                                                                                    padding-left: 0;
+                                                                                                    padding-top: 4px;
+                                                                                                    border-top-color: #d9d9d9;
+                                                                                                    border-top-width: 1px;
+                                                                                                "
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                <h3>
+                                                                                                    <strong style="font-size: 22px;">
+                                                                                                        <img alt="" src="https://i.postimg.cc/DyHb0CvQ/pngkey-com-quotation-mark-png-844200.png" style="width: 40px; height: 32px;" />
+                                                                                                    </strong>
+                                                                                                </h3>
+                                                                                                <p>
+                                                                                                    <span style="font-size: 14px;">
+                                                                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                                                                                        since the 1500s
+                                                                                                    </span>
+                                                                                                </p>
+                                                                                                <p>
+                                                                                                    <span style="font-size: 14px;">.</span>
+                                                                                                    <img
+                                                                                                        alt=""
+                                                                                                        src="https://i.postimg.cc/KzWmfHsJ/pngkey-com-quotation-mark-png-844200.png"
+                                                                                                        style="font-size: 14px; width: 40px; height: 32px;"
+                                                                                                    />
+                                                                                                </p>
+                                                                                                <p style="padding-bottom: 0; text-align: right;"><strong style="font-size: 16px;">Owner #Name</strong></p>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmTableBlock kmTableMobile" width="100%">
+                                                                    <tbody class="kmTableBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmTableBlockInner" style="padding-top: 18px; padding-bottom: 25px; padding-left: 18px; padding-right: 18px; background-color: #eee;" valign="top">
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="kmTable" style="" width="100%">
+                                                                                    <thead>
+                                                                                        <tr>
+                                                                                            <th
+                                                                                                class="kmTextContent"
+                                                                                                style="text-align: left; padding-top: 4px; font-weight: bold; padding-right: 0px; padding-left: 0px; padding-bottom: 4px;"
+                                                                                                valign="top"
+                                                                                            ></th>
+                                                                                            <th
+                                                                                                class="kmTextContent"
+                                                                                                style="text-align: center; padding-top: 4px; font-weight: bold; padding-right: 0px; padding-left: 0px; padding-bottom: 4px;"
+                                                                                                valign="top"
+                                                                                            ></th>
+                                                                                        </tr>
+                                                                                    </thead>
+                                                                                    <tbody>
+                                                                                        <tr class="kmTableRow">
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="
+                                                                                                    text-align: left;
+                                                                                                    border-top-style: none;
+                                                                                                    padding-bottom: 4px;
+                                                                                                    padding-right: 0px;
+                                                                                                    padding-left: 0px;
+                                                                                                    padding-top: 4px;
+                                                                                                    border-top-color: #d9d9d9;
+                                                                                                    border-top-width: 1px;
+                                                                                                "
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                <h3>
+                                                                                                    <span style="font-size: 22px;">
+                                                                                                        <strong>
+                                                                                                            <img alt="" src="https://i.postimg.cc/DyHb0CvQ/pngkey-com-quotation-mark-png-844200.png" style="width: 40px; height: 32px;" />
+                                                                                                        </strong>
+                                                                                                    </span>
+                                                                                                </h3>
+                                                                                                <p>
+                                                                                                    <span style="font-size: 14px;">
+                                                                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                                                                                        since the 1500s
+                                                                                                    </span>
+                                                                                                </p>
+                                                                                                <p>
+                                                                                                    <span style="font-size: 14px;">.</span>
+                                                                                                    <img
+                                                                                                        alt=""
+                                                                                                        src="https://i.postimg.cc/KzWmfHsJ/pngkey-com-quotation-mark-png-844200.png"
+                                                                                                        style="font-size: 14px; width: 40px; height: 32px;"
+                                                                                                    />
+                                                                                                </p>
+                                                                                                <p style="padding-bottom: 0; text-align: right;">
+                                                                                                    <span style="font-size: 16px;"><strong>Owner #Name</strong></span>
+                                                                                                </p>
+                                                                                            </td>
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="
+                                                                                                    border-right: none;
+                                                                                                    text-align: center;
+                                                                                                    border-top-style: none;
+                                                                                                    padding-bottom: 4px;
+                                                                                                    padding-right: 0;
+                                                                                                    padding-left: 0;
+                                                                                                    padding-top: 4px;
+                                                                                                    border-top-color: #d9d9d9;
+                                                                                                    border-top-width: 1px;
+                                                                                                "
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                                                    <tr>
+                                                                                                        <td
+                                                                                                            class="kmImageContent"
+                                                                                                            style="padding-top: 0px; padding-bottom: 0; padding-left: 9px; padding-right: 9px; text-align: center;"
+                                                                                                            valign="top"
+                                                                                                        >
+                                                                                                            <img
+                                                                                                                align="center"
+                                                                                                                alt=""
+                                                                                                                class="kmImage"
+                                                                                                                src="https://d3k81ch9hvuctc.cloudfront.net/company/RRWA89/images/e461fbbc-2a78-4a6e-8985-85be05e8fc5c.png"
+                                                                                                                style="max-width: 500px;"
+                                                                                                                width="500"
+                                                                                                            />
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmTextBlock" width="100%">
+                                                                    <tbody class="kmTextBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmTextBlockInner" style="" valign="top">
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="kmTextContentContainer" width="100%">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="kmTextContent" style="padding-top: 25px; padding-bottom: 25px; padding-left: 25px; padding-right: 25px;" valign="top">
+                                                                                                <h3 style="text-align: center;">
+                                                                                                    <span style="font-size: 26px;"><strong>Join Us</strong></span>
+                                                                                                </h3>
+                                                                                                <p style="padding-bottom: 0; text-align: center;">
+                                                                                                    <span style="font-size: 16px;">
+                                                                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                                                                                        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                                                                                    </span>
+                                                                                                </p>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0" class="templateRow" width="100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="rowContainer kmFloatLeft" valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmButtonBlock" style="width: 100% !important;" width="100%">
+                                                                    <tbody class="kmButtonBlockOuter">
+                                                                        <tr>
+                                                                            <td align="center" class="kmButtonBlockInner" style="padding-top: 9; padding-bottom: 9; padding-left: 18; padding-right: 18;" valign="top">
+                                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmButtonContentContainer" style="border-radius: 5px; background-color: #1a52a8;" width="">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <!--[if !mso]><!-->
+                                                                                            <td
+                                                                                                align="center"
+                                                                                                class="kmButtonContent"
+                                                                                                style="color: #ffffff; font-size: 16px; font-weight: bold; letter-spacing: 0px; font-family: Tahoma, sans-serif;"
+                                                                                                valign="middle"
+                                                                                            >
+                                                                                                <a
+                                                                                                    class="kmButton"
+                                                                                                    href="http://"
+                                                                                                    style="
+                                                                                                        text-decoration: none;
+                                                                                                        display: inline-block;
+                                                                                                        color: #ffffff;
+                                                                                                        font-size: 16px;
+                                                                                                        font-weight: bold;
+                                                                                                        letter-spacing: 0px;
+                                                                                                        padding-top: 15px;
+                                                                                                        padding-bottom: 15px;
+                                                                                                        font-family: Tahoma, sans-serif;
+                                                                                                        padding-left: 50px;
+                                                                                                        padding-right: 50px;
+                                                                                                    "
+                                                                                                    target="_self"
+                                                                                                    title=""
+                                                                                                >
+                                                                                                    Shop Now
+                                                                                                </a>
+                                                                                            </td>
+                                                                                            <!--<![endif]-->
+                                                                                            <!--[if mso]>
+                                                                                                <td
+                                                                                                    align="center"
+                                                                                                    valign="middle"
+                                                                                                    class="kmButtonContent"
+                                                                                                    style="
+                                                                                                        padding: 15px;
+                                                                                                        color: #ffffff;
+                                                                                                        font-size: 16px;
+                                                                                                        font-weight: bold;
+                                                                                                        letter-spacing: 0px;
+                                                                                                        padding-top: 15px;
+                                                                                                        padding-bottom: 15px;
+                                                                                                        font-family: Tahoma, sans-serif;
+                                                                                                        padding-left: 50px;
+                                                                                                        padding-right: 50px;
+                                                                                                    "
+                                                                                                >
+                                                                                                    <a
+                                                                                                        class="kmButton"
+                                                                                                        title=""
+                                                                                                        href="http://"
+                                                                                                        target="_self"
+                                                                                                        style="
+                                                                                                            text-decoration: none;
+                                                                                                            color: #ffffff;
+                                                                                                            font-size: 16px;
+                                                                                                            font-weight: bold;
+                                                                                                            letter-spacing: 0px;
+                                                                                                            padding-top: 15px;
+                                                                                                            padding-bottom: 15px;
+                                                                                                            font-family: Tahoma, sans-serif;
+                                                                                                            padding-left: 50px;
+                                                                                                            padding-right: 50px;
+                                                                                                            margin-top: -15px;
+                                                                                                            margin-bottom: -15px;
+                                                                                                            margin-left: -50px;
+                                                                                                            margin-right: -50px;
+                                                                                                        "
+                                                                                                    >
+                                                                                                        Shop Now
+                                                                                                    </a>
+                                                                                                </td>
+                                                                                            <![endif]-->
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmDividerBlock" width="100%">
+                                                                    <tbody class="kmDividerBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmDividerBlockInner" style="padding-top: 20px;">
+                                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmDividerContent" width="100%">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td><span></span></td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmTextBlock" width="100%">
+                                                                    <tbody class="kmTextBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmTextBlockInner" style="" valign="top">
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="kmTextContentContainer" width="100%">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td
+                                                                                                class="kmTextContent"
+                                                                                                style="font-size: 12px; color: #727272; padding-bottom: 9px; text-align: center; padding-right: 18px; padding-left: 18px; padding-top: 9px;"
+                                                                                                valign="top"
+                                                                                            >
+                                                                                                No longer want to receive these emails? {% unsubscribe %}.<br />
+                                                                                                {{ organization.name }} {{ organization.full_address }}
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!--[if !mso]><!-->
+                                </div>
+                            </div>
+                            <div style="display: none !important; visibility: hidden; mso-hide: all; font-size: 1px; color: #ffffff; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">‌</div>
+                            <!--<![endif]-->
+                            <!--[if mso]> </td> </tr> </tbody> </table> <![endif]-->
+                            <!--[if !mso]><!-->
+                            <div class="templateContainer brandingContainer" style="display: table; width: 600px;">
+                                <div class="templateContainerInner">
+                                    <!--<![endif]-->
+                                    <!--[if mso]> <table border="0" cellpadding="0" cellspacing="0" class="templateContainer" id="brandingContainer" width="600" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;"> <tbody> <tr> <td class="templateContainerInner" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;"> <![endif]-->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0" class="templateRow" width="100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="rowContainer kmFloatLeft" valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0" class="kmImageBlock" style="min-width: 100%;" width="100%">
+                                                                    <tbody class="kmImageBlockOuter">
+                                                                        <tr>
+                                                                            <td class="kmImageBlockInner" style="padding: 9px; padding-top: 25px; padding-bottom: 25px;" valign="top">
+                                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="kmImageContentContainer" style="min-width: 100%;" width="100%">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="kmImageContent" style="padding-top: 0px; padding-bottom: 0; padding-left: 9px; padding-right: 9px; text-align: center;" valign="top">
+                                                                                                <a href="https://www.klaviyo.com/?utm_medium=freebie&amp;utm_source=brand&amp;utm_term=RRWA89" target="_self">
+                                                                                                    <img
+                                                                                                        align="center"
+                                                                                                        alt="Powered by Klaviyo"
+                                                                                                        class="kmImage"
+                                                                                                        src="https://d3k81ch9hvuctc.cloudfront.net/assets/email/branding/klaviyo-branding-option-0.png"
+                                                                                                        style="max-width: 122px;"
+                                                                                                        width="122"
+                                                                                                    />
+                                                                                                </a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!--[if !mso]><!-->
+                                </div>
+                            </div>
+                            <div style="display: none !important; visibility: hidden; mso-hide: all; font-size: 1px; color: #ffffff; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">‌</div>
+                            <!--<![endif]-->
+                            <!--[if mso]> </td> </tr> </tbody> </table> <![endif]-->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+    </body>
+</html>
